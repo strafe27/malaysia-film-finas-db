@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: malaysiafilm
+    database: malaysiafilm  # The database where your raw data resides
+    schema: malaysiafilm     # The schema if applicable (e.g., `public` or `raw`)
+    tables:
+      - name: 2023films_raw
+        description: "Raw data for 2023 films."
+      - name: 2022films_raw
+        description: "Raw data for 2022 films."

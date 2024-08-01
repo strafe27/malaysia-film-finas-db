@@ -206,3 +206,73 @@ start C:\Users\user\.dbt
 [0m13:18:19.089041 [debug] [MainThread]: Connection 'debug' was properly closed.
 [0m13:18:19.089041 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFFF9D7CD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF8C0DE90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001FFF897BC10>]}
 [0m13:18:19.089041 [debug] [MainThread]: Flushing usage events
+[0m08:40:44.530130 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244CCD87690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244CCDA4950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244CCDA5CD0>]}
+
+
+============================== 08:40:44.542228 | 752c2991-fab7-4075-8318-8f3636a4542a ==============================
+[0m08:40:44.542228 [info ] [MainThread]: Running with dbt=1.7.17
+[0m08:40:44.544129 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\user\\Desktop\\Projects\\malaysia-film-finas\\malaysia-film-finas\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m08:40:44.545160 [info ] [MainThread]: dbt version: 1.7.17
+[0m08:40:44.546296 [info ] [MainThread]: python version: 3.11.7
+[0m08:40:44.547296 [info ] [MainThread]: python path: C:\Users\user\Desktop\Projects\malaysia-film-finas\finas-env\Scripts\python.exe
+[0m08:40:44.548295 [info ] [MainThread]: os info: Windows-10-10.0.19045-SP0
+[0m08:40:44.663028 [info ] [MainThread]: Using profiles dir at C:\Users\user\.dbt
+[0m08:40:44.665000 [info ] [MainThread]: Using profiles.yml file at C:\Users\user\.dbt\profiles.yml
+[0m08:40:44.666000 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\user\Desktop\Projects\malaysia-film-finas\malaysia-film-finas\dbt_project.yml
+[0m08:40:44.668123 [info ] [MainThread]: adapter type: mysql
+[0m08:40:44.669149 [info ] [MainThread]: adapter version: 1.7.0
+[0m08:40:44.768917 [info ] [MainThread]: Configuration:
+[0m08:40:44.771058 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m08:40:44.772060 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m08:40:44.773092 [info ] [MainThread]: Required dependencies:
+[0m08:40:44.774087 [debug] [MainThread]: Executing "git --help"
+[0m08:40:44.818745 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m08:40:44.820891 [debug] [MainThread]: STDERR: "b''"
+[0m08:40:44.821892 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m08:40:44.823895 [info ] [MainThread]: Connection:
+[0m08:40:44.825891 [info ] [MainThread]:   server: localhost
+[0m08:40:44.826891 [info ] [MainThread]:   unix_socket: None
+[0m08:40:44.828041 [info ] [MainThread]:   port: 3306
+[0m08:40:44.830042 [info ] [MainThread]:   database: None
+[0m08:40:44.831044 [info ] [MainThread]:   schema: malaysiafilm
+[0m08:40:44.832040 [info ] [MainThread]:   user: root
+[0m08:40:44.833042 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m08:40:44.836042 [debug] [MainThread]: Acquiring new mysql connection 'debug'
+[0m08:40:44.837041 [debug] [MainThread]: Using mysql connection "debug"
+[0m08:40:44.838040 [debug] [MainThread]: On debug: select 1 as id
+[0m08:40:44.838040 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m08:40:44.861477 [debug] [MainThread]: SQL status: SUCCESS 1 in 0.0 seconds
+[0m08:40:44.862480 [debug] [MainThread]: On debug: Close
+[0m08:40:44.864478 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m08:40:44.865479 [info ] [MainThread]: [32mAll checks passed![0m
+[0m08:40:44.867479 [debug] [MainThread]: Command `dbt debug` succeeded at 08:40:44.867479 after 0.41 seconds
+[0m08:40:44.868478 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m08:40:44.869477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244C606EE50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244CCDBFA10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000244CCDBC8D0>]}
+[0m08:40:44.869477 [debug] [MainThread]: Flushing usage events
+[0m08:40:53.947637 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FB7A8290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FB3C6350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FB793FD0>]}
+
+
+============================== 08:40:53.952778 | c40c57d7-2df0-4409-a618-400dc57fa132 ==============================
+[0m08:40:53.952778 [info ] [MainThread]: Running with dbt=1.7.17
+[0m08:40:53.954003 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\user\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\user\\Desktop\\Projects\\malaysia-film-finas\\malaysia-film-finas\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m08:40:54.499910 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c40c57d7-2df0-4409-a618-400dc57fa132', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FA39C1D0>]}
+[0m08:40:54.570880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c40c57d7-2df0-4409-a618-400dc57fa132', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FB789AD0>]}
+[0m08:40:54.572881 [info ] [MainThread]: Registered adapter: mysql=1.7.0
+[0m08:40:54.592605 [debug] [MainThread]: checksum: df69a17a5cb23fb99a7422df02bc7a63a38fc52c957542963e77e6cc79b17fab, vars: {}, profile: , target: , version: 1.7.17
+[0m08:40:54.594604 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m08:40:54.598077 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c40c57d7-2df0-4409-a618-400dc57fa132', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FB9BA490>]}
+[0m08:40:56.217111 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.finas.example
+[0m08:40:56.224346 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'c40c57d7-2df0-4409-a618-400dc57fa132', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FBBB8710>]}
+[0m08:40:56.254554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'c40c57d7-2df0-4409-a618-400dc57fa132', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FBB47A10>]}
+[0m08:40:56.255585 [info ] [MainThread]: Found 0 sources, 0 exposures, 0 metrics, 387 macros, 0 groups, 0 semantic models
+[0m08:40:56.256555 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'c40c57d7-2df0-4409-a618-400dc57fa132', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FBB20190>]}
+[0m08:40:56.258584 [info ] [MainThread]: 
+[0m08:40:56.259608 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m08:40:56.261584 [debug] [MainThread]: Command end result
+[0m08:40:56.271803 [debug] [MainThread]: Command `dbt run` succeeded at 08:40:56.270553 after 2.40 seconds
+[0m08:40:56.272806 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FB7750D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178FB7752D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000178F4A6BE50>]}
+[0m08:40:56.273807 [debug] [MainThread]: Flushing usage events
