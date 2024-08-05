@@ -1,0 +1,55 @@
+models:
+  - name: stg_2018
+    columns:
+      - name : film_title
+        tests:
+          - unique
+          - not_null
+  - name: stg_2019
+    columns:
+      - name : film_title
+        tests:
+          - unique
+          - not_null  
+  - name: stg_2020
+    columns:
+      - name : film_title
+        tests:
+          - unique
+          - not_null
+  - name: stg_2021
+    columns:
+      - name : film_title
+        tests:
+          - unique
+          - not_null
+  - name: stg_2022
+    columns:
+      - name : film_title
+        tests:
+          - unique
+          - not_null
+  - name: stg_2023
+    columns:
+      - name : film_title
+        tests:
+          - unique
+          - not_null
+  - name: stg_2018
+    columns:
+      - name : film_title
+        tests:
+          - unique
+          - not_null
+  - name: dim_films
+    columns:
+      - name : film_title
+        tests:
+          - unique
+          - not_null    
+  - name: fct_films
+    columns:
+      - name : film_title
+        tests:
+          - unique
+          - not_null              
